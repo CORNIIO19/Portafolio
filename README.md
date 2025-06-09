@@ -13,6 +13,8 @@ Esta plantilla fue creada para ayudarte a iniciar tu portafolio de proyectos de 
 - Sección de habilidades técnicas lstadas con iconos.
 - Sección de proyectos Relevantes.
 - Seccion de Educacion y Experiencia.
+## Aqui podras encontrar la plantilla del CV Estilo Hardvard para que hagas el tuyo
+[CV Estilo Hardvard](https://www.overleaf.com/latex/templates/70-plus-ats-rating-resume-template/ssprfsctyddz)
 
 ### Pagina About Me 
 - Información detallada sobre ti.
