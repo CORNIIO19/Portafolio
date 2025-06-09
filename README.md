@@ -1,5 +1,5 @@
 ## Plantilla de Portafolio de Proyectos
-Esta plantilla fue creada para ayudarte a iniciar tu portafolio de proyectos de manera rápida y sencilla. Incluye una estructura básica de archivos y un diseño responsivo, para que la puedas visualizar en cualquier tamano de dispositivo. Fue creada con el proposito de que solo tengas que hacer algunos ajustes o que la configures y cambies el diseño a tu gusto y a tu Marca Personal.
+Esta plantilla fue creada para ayudarte a iniciar tu portafolio de proyectos de manera rápida y sencilla. Incluye una estructura básica de archivos y un diseño responsivo, para que la puedas visualizar en cualquier tamano de dispositivo. Fue creada con el proposito de que solo tengas que hacer algunos ajustes o que la configures y cambies el diseño a tu gusto y a tu Marca Personal. \o/
 
 ## Características.
 ### Pagina Principal o Home
@@ -31,7 +31,7 @@ Esta plantilla fue creada para ayudarte a iniciar tu portafolio de proyectos de 
 ### Estructura del Proyecto
 ```
 proyecto/
-├── index.html  
+|  
 ├── css/
 │   └── styles.css
 |   └── proyectos-styles.css
@@ -86,22 +86,23 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## Contacto
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de:
-- Correo electrónico: [omar.jsb12@gmail](mailto:omar.jsb12@gmail)
+- Correo electrónico: [omar.jsb12@gmail](mailto:omar.jsb12@gmail.com)
 - GitHub: [CORNIIO19](https://github.com/CORNIIO19)
-- LinkedIn: [Omar Sosa](www.linkedin.com/in/omar-sosa-2619jh12)
+- LinkedIn: [Omar Sosa](https://www.linkedin.com/in/omar-sosa-2619jh12)
 
 ## Agradecimientos
-Gracias por utilizar esta plantilla de portafolio de proyectos. Espero que te sea útil para mostrar tus habilidades y proyectos de manera efectiva. Si tienes alguna sugerencia o mejora, no dudes en abrir un issue en el repositorio o contactarme..
+Gracias por utilizar esta plantilla de portafolio de proyectos. Espero que te sea útil para mostrar tus habilidades y proyectos de manera efectiva. Si tienes alguna sugerencia o mejora, no dudes en abrir un issue en el repositorio o contactarme. \o/
 
 ## Notas Finales
-Recuerda que este es solo un punto de partida. Siéntete libre de modificar y personalizar esta plantilla según tus necesidades y estilo personal. La clave es que tu portafolio refleje quién eres y qué puedes ofrecer.
+Recuerda que este es solo un punto de partida. Siéntete libre de modificar y personalizar esta plantilla según tus necesidades y estilo personal. La clave es que tu portafolio refleje quién eres y qué puedes ofrecer. \o/
 
 ## Recursos Adicionales
+Algunas de estas paginas me sirvieron para el desarrollo de la pagina, espero te sean de utilidad. \o/
 - [Guía de estilo de GitHub](https://guides.github.com/features/mastering-markdown/) - Una guía para escribir en Markdown, el formato utilizado en este README.
 - [Flexbox Froggy](https://flexboxfroggy.com/) - Un juego para aprender CSS Flexbox.
 - [CSS Tricks - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Una guía completa sobre CSS Flexbox.
 - [Font Awesome](https://fontawesome.com/) - Para iconos de redes sociales y habilidades técnicas.
 - [Google Fonts](https://fonts.google.com/) - Para fuentes personalizadas.
-- W3Schools - [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/) - Tutoriales y referencias de HTML y CSS.
+- [W3Schools](https://www.w3schools.com) - [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/) - Tutoriales y referencias de HTML y CSS.
 - [MDN Web Docs](https://developer.mozilla.org/es/docs/Web) - Documentación completa sobre tecnologías web.
 
