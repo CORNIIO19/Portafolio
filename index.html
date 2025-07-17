@@ -9,198 +9,365 @@
     <link rel="icon" type="image/x-icon" href="./Assets/Iconos General/Logo_MP.png">
 </head>
 
-
+<!-- Aqui empieza el contenido de la pagina -->
 <body>
-
-        <header class="header">
-            <nav class="header__menu">
-                <a class="header__menu__link" href="index.html">Home</a>
-                <a class="header__menu__link" href="aboutMe.html">Sobre Mi</a>
-                <a class="header__menu__link" href="proyectos.html">Proyectos</a>
-            </nav>
-        </header>
-
-        <main class="principal">
-            <section class="presentacion">
+    <!-- header de la pagina -->
+    <header class="header">
+        <!-- menu de navegacion con los links a las demas partes de la pagina -->
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="aboutMe.html">Sobre Mi</a>
+            <a class="header__menu__link" href="proyectos.html">Proyectos</a>
+        </nav>
+    </header>
+    <!-- aqui empieza el contenido de la pagina -->
+    <main class="principal">
+        <div class="prueba2">
+        <div class="prueba1">
+        <!-- aqui empieza las partes de la presentacion del Portafolio -->
+        <section class="presentacion">
+            <!-- comienzo de las partes de la presentacion del portafolio, descripcion del perfil general, correo personal y links el curriculum en espaniol e ingles -->
             <section class="presentacion__contenido">
+                <!-- Titulo atractivo para el portafolio -->
                 <h1 class="presentacion__contenido__titulo">
-                    Eleve tu negocio digital a otro nivel 
-                    <strong class="titulo-destacado">con un Movil Development y AI Development</strong> 
+                    <strong class="titulo-destacado">Soy [Tu Nombre], desarrollador móvil e ingeniero de IA,</strong> creando soluciones que impulsan negocios digitales
                 </h1>
-                
-                <p class="presentacion__contenido__parrafo">
-                    ¡Hola! <span class="presentacion__contenido__parrafo__nombre">Soy Omar Sosa</span>, 			    desarrollador Movil y Data Scientist 
-                    con especialización en Flutter, Python y Kotlin. Soy estudiante de la carrera de Tecnologias 		    de la informacion, desarrollar es mi pasion Ayudo
-                    a pequeños negocios y diseñadores a llevar a cabo
-                    buenas ideas. ¿Hablamos?
-                </p>
+                <!-- Parrafo de presentacion para el perfil del portafolio -->
+                <p class="presentacion__contenido__parrafo"> ¡Hola! <span class="presentacion__contenido__parrafo__nombre">Soy [tu nombre]</span>, desarrollador móvil y científico de datos especializado en Flutter, Python y Kotlin. Actualmente curso la carrera de Tecnologías de la Información y la programación es mi pasión. Estoy aquí para sumar mis habilidades a tu proyecto: diseñémoslo juntos y pongámoslo en marcha. ¿Hablamos?</p>
+                <!-- Contenedor de la parte de contacto del portafolio -->
                 <div class="presentacion__contacto">
                     <h3 class="contacto__titulo">Hagamos contacto, enviame un correo:</h3>
-                    <h2 class="contacto__titulo">Correo: <span class="contacto__correo">omar.jsb12@gmail.com</span></h2>
-                    <h3 class="contacto__titulo">Descarga mi CV:</h3>
-                    <div class="contacto__enlaces__cv">
-                        <a href="./Documents/CV_Omar-Sosa.pdf" target="_blank" class="contacto__enlaces__link">Curriculum en Español</a>
-                        <a target="_blank" class="contacto__enlaces__link" href="./Documents/CV_Omar-Sosa.pdf">Curriculum en Ingles</a>
-                    </div>
-                </div>
-                
+                    <!-- etiquetas de correo electronico personal para contacto-->
+                    <h2 class="contacto__titulo"><span class="contacto__correo">[tu_correo]@gmail.com</span></h2>
+                    
+                </div>    
             </section>
 
+            <!-- aqui comienza el contenedor con la imagen a mostrar en el portafolio y los links a las redes sociales importantes para la vida profesional -->
             <div class="imagen__enlaces">
+                <!-- etiqueta para agregar la imagen -->
                 <img class="presentacion__imagen" src="./Assets/Imagen_Perfil.png" alt="imagen propia trabajando">
-                <div class="presentacion__enlaces">
+                    
+            </div>
+        </div>
 
-                        <h2 class="presentacion__enlaces__titulo">Accede a mis Redes:</h2>
-                        
-                        <a class="presentacion__enlaces__link" target="_blank" href="https://github.com/CORNIIO19">
-                            <img src="./Assets/github.png">
-                            GitHub
-                        </a>
-                        <a class="presentacion__enlaces__link" target="_blank" href="www.linkedin.com/in/omar-sosa-2619jh12">
-                            <img src="./Assets/linkedin.png">
-                            Linkedin
-                        </a>
+            <div class="presentacion__enlaces">
 
+                <a class="presentacion__enlaces__link" target="_blank" href="https://acortar.link/TbUcuf">
+                    CV en Español
+                </a>
+
+                <a class="presentacion__enlaces__link" target="_blank" href="www.linkedin.com/in/omar-sosa-2619jh12">
+                    CV en Ingles
+                </a>
+
+                <a class="presentacion__enlaces__link" target="_blank" href="www.linkedin.com/in/omar-sosa-2619jh12">
+                    <img src="./Assets/linkedin.png">
+                    Linkedin
+                </a>
+
+                <a class="presentacion__enlaces__link" target="_blank" href="https://github.com/CORNIIO19">
+                    <img src="./Assets/github.png">
+                    GitHub
+                </a>
+
+            </div>
+        </div>
+
+        </section>
+        <!-- aqui temina la seccion de la presentancion del perfil del portafolio -->
+
+    <!-- divisores que ayudan a dividir cada seccion de la pagina -->
+    <div class="divider"> </div>
+
+    <!-- comienzo de la seccion de proyetos -->
+    <section class="proyectos">
+        <h2 class="proyectos__titulo">Mis Proyectos Relevantes</h2>
+            <!-- comienzo de la seccion de los proyectos mas relevantes, en esta etiqueta es el contenedor de las tarjetas de  -->
+            <section class="proyectos__tarjetas">
+                <!-- 1ra tarjeta de proyectos donde encontraras el contenido, imagen, titulo, descripcion, tecnologias y links relevantes. -->
+                <div class="proyecto">
+                    <!-- imagen de referencia al proyecto -->
+                    <img src="./Assets/Portada-Proyectos.jpg" alt="Imagen de Proyecto" class="proyecto__portada">
+                    <!-- nombre del proyecto -->
+                    <h3 class="proyecto__titulo">Proyecto 1 </h3>
+                    <!-- descripcion del proyecto -->
+                    <p class="proyecto__descripcion">
+                        [Nombre del proyecto] es una app [tipo de app, p. ej. móvil, web] que busca resolver [objetivo breve].<br>  
+                        El Rol que desempeñe consistio en [lideré/diseñé/implementé] [responsabilidad].   
+                    </p>
+                    <!-- tecnologias del proyecto -->
+                    <h3 class="tecnologiasUsadas__titulo">Tecnologias Usadas</h3>
+                    <!-- aqui comienza el contenedor con los iconos de las tecnologias usadas para el desarrollo del proyecto -->
+                    <div class="tecnologiasusadas__iconos">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" alt="Tecnologias Usadas" class="imagen__iconos">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                    </div>
+                    <!-- aqui comienza el contenedor de los enlaces al proyecto, el repositorio y una pagina de mas detalles del proyecto o una demo-->
+                    <div class="proyecto__enlaces">
+                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io">GitHub <img src="./Assets/Iconos Programacion/github-mark.png" alt="icono github" class="proyecto__enlaces__boton__github"></a>
+                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io"><img src="./Assets/Iconos General/redimensionar.png" alt="Icono Redimensionar" class="proyecto__enlaces__boton__github">Ver Mas</a>
                     </div>
                 </div>
 
+                <!-- 2da tarjeta de proyectos donde encontraras el contenido, imagen, titulo, descripcion, tecnologias y links relevantes. -->
+            <div class="proyecto">
+                    <!-- imagen de referencia al proyecto -->
+                    <img src="./Assets/Portada-Proyectos.jpg" alt="Imagen de Proyecto" class="proyecto__portada">
+                    <!-- nombre del proyecto -->
+                    <h3 class="proyecto__titulo">Proyecto 1 </h3>
+                    <!-- descripcion del proyecto -->
+                    <p class="proyecto__descripcion">
+                        [Nombre del proyecto] es una app [tipo de app, p. ej. móvil, web] que busca resolver [objetivo breve].<br>  
+                        El Rol que desempeñe consistio en [lideré/diseñé/implementé] [responsabilidad]. 
+                    <!-- tecnologias del proyecto -->
+                    <h3 class="tecnologiasUsadas__titulo">Tecnologias Usadas</h3>
+                    <!-- aqui comienza el contenedor con los iconos de las tecnologias usadas para el desarrollo del proyecto -->
+                    <div class="tecnologiasusadas__iconos">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" alt="Tecnologias Usadas" class="imagen__iconos">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                    </div>
+                    <!-- aqui comienza el contenedor de los enlaces al proyecto, el repositorio y una pagina de mas detalles del proyecto o una demo-->
+                    <div class="proyecto__enlaces">
+                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io">GitHub <img src="./Assets/Iconos Programacion/github-mark.png" alt="icono github" class="proyecto__enlaces__boton__github"></a>
+                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io"><img src="./Assets/Iconos General/redimensionar.png" alt="Icono Redimensionar" class="proyecto__enlaces__boton__github">Ver Mas</a>
+                    </div>
+                </div>
+
+            <!-- 3ra tarjeta de proyectos donde encontraras el contenido, imagen, titulo, descripcion, tecnologias y links relevantes. -->
+            <div class="proyecto">
+                    <!-- imagen de referencia al proyecto -->
+                    <img src="./Assets/Portada-Proyectos.jpg" alt="Imagen de Proyecto" class="proyecto__portada">
+                    <!-- nombre del proyecto -->
+                    <h3 class="proyecto__titulo">Proyecto 1 </h3>
+                    <!-- descripcion del proyecto -->
+                    <p class="proyecto__descripcion">
+                        [Nombre del proyecto] es una app [tipo de app, p. ej. móvil, web] que busca resolver [objetivo breve].<br>  
+                        El Rol que desempeñe consistio en [lideré/diseñé/implementé] [responsabilidad]. 
+                    </p>
+                    <!-- tecnologias del proyecto -->
+                    <h3 class="tecnologiasUsadas__titulo">Tecnologias Usadas</h3>
+                    <!-- aqui comienza el contenedor con los iconos de las tecnologias usadas para el desarrollo del proyecto -->
+                    <div class="tecnologiasusadas__iconos">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" alt="Tecnologias Usadas" class="imagen__iconos">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                    </div>
+                    <!-- aqui comienza el contenedor de los enlaces al proyecto, el repositorio y una pagina de mas detalles del proyecto o una demo-->
+                    <div class="proyecto__enlaces">
+                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io">GitHub <img src="./Assets/Iconos Programacion/github-mark.png" alt="icono github" class="proyecto__enlaces__boton__github"></a>
+                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io"><img src="./Assets/Iconos General/redimensionar.png" alt="Icono Redimensionar" class="proyecto__enlaces__boton__github">Ver Mas</a>
+                    </div>
+                </div>
+
+                <!-- 4ta tarjeta del proyecto -->
+                <div class="proyecto">
+                    <!-- imagen de referencia al proyecto -->
+                    <img src="./Assets/Portada-Proyectos.jpg" alt="Imagen de Proyecto" class="proyecto__portada">
+                    <!-- nombre del proyecto -->
+                    <h3 class="proyecto__titulo">Proyecto 1 </h3>
+                    <!-- descripcion del proyecto -->
+                    <p class="proyecto__descripcion">
+                        [Nombre del proyecto] es una app [tipo de app, p. ej. móvil, web] que busca resolver [objetivo breve].<br>  
+                        El Rol que desempeñe consistio en [lideré/diseñé/implementé] [responsabilidad]. 
+                    </p>
+                    <!-- tecnologias del proyecto -->
+                    <h3 class="tecnologiasUsadas__titulo">Tecnologias Usadas</h3>
+                    <!-- aqui comienza el contenedor con los iconos de las tecnologias usadas para el desarrollo del proyecto -->
+                    <div class="tecnologiasusadas__iconos">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" alt="Tecnologias Usadas" class="imagen__iconos">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
+                    </div>
+                    <!-- aqui comienza el contenedor de los enlaces al proyecto, el repositorio y una pagina de mas detalles del proyecto o una demo-->
+                    <div class="proyecto__enlaces">
+                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io">GitHub <img src="./Assets/Iconos Programacion/github-mark.png" alt="icono github" class="proyecto__enlaces__boton__github"></a>
+                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io"><img src="./Assets/Iconos General/redimensionar.png" alt="Icono Redimensionar" class="proyecto__enlaces__boton__github">Ver Mas</a>
+                    </div>
+                </div>
+            <a href="proyectos.html" class="todos__proyectos">Ver Todos Mis Proyetos</a>
+
             </section>
+        </section>
 
-            <div class="divider"> </div>
+    <div class="divider"> </div>
 
-            <section class="stack">
+        <section class="stack">
             
             <h2 class="stack__titulo">Mi stack de Tecnologias</h2>
 
-            <div class="stack__tecnologias">
-
-                <div class="iconos">
-                    <img src="./Assets/Iconos Programacion/html-5.png" class="tecnologias__iconos" alt="icono tecnologia 1">
-                    <p class="icono__titulo">HTML</p>
-                </div>
-                <div class="iconos">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="tecnologias__iconos" alt="icono tecnologia 2">
-                    <p class="icono__titulo">CSS</p>
-                </div>
-                <div class="iconos">
-                    <img src="./Assets/Iconos Programacion/javascript.png" class="tecnologias__iconos" alt="icono tecnologia 3">
-                    <p class="icono__titulo">JavaScript</p>
-                </div>
-                <div class="iconos">
-                    <img src="./Assets/Iconos Programacion/mysql.png" class="tecnologias__iconos" alt="icono tecnologia 4">
-                    <p class="icono__titulo">Mysql</p>
-                </div>
-                <div class="iconos">
-                    <img src="./Assets/Iconos Programacion/git.png" class="tecnologias__iconos" alt="icono tecnologia 5">
-                    <p class="icono__titulo">Git</p>
-                </div>
-                
-            </div>
-
-        </section>
-
-        <div class="divider"> </div>
-
-        <section class="proyectos">
-
-            <h2 class="proyectos__titulo">Mis Proyectos Relevantes</h2>
-
-            <section class="proyectos__tarjetas">
-
-            <div class="proyecto">
-                <img src="./Assets/Portada-Proyectos.jpg" alt="Imagen de Proyecto" class="proyecto__portada">
-                <h3 class="proyecto__titulo">Proyecto 1 </h3>
-                <p class="proyecto__descripcion">Este proyecto de programación busca resolver la necesidad de una gestión eficiente de tareas y contenidos en entornos educativos. Se desarrolló una aplicación web utilizando XAMPP como entorno local, con PHP, MySQL, HTML/CSS y JavaScript, permitiendo registrar usuarios, asignar tareas y generar reportes de rendimiento.
-
-Mi rol se centró en el desarrollo del backend, diseñando la base de datos y programando las funciones principales para el manejo de usuarios y tareas. Gracias a este proyecto, fortalecí mis habilidades técnicas en bases de datos y lógica de servidor.
-
-Además, el trabajo en equipo y la comunicación fueron clave en el proceso, lo que me permitió mejorar significativamente mis habilidades blandas, como la colaboración, la organización y la adaptación a distintos enfoques de trabajo.</p>
-                <h3 class="tecnologiasUsadas__titulo">Tecnologias Usadas</h3>
-                <div class="tecnologiasusadas__iconos">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" alt="Tecnologias Usadas" class="imagen__iconos">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                </div>
-                <div class="proyecto__enlaces">
-                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io">GitHub <img src="./Assets/Iconos Programacion/github-mark.png" alt="icono github" class="proyecto__enlaces__boton__github"></a>
-                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io"><img src="./Assets/Iconos General/redimensionar.png" alt="Icono Redimensionar" class="proyecto__enlaces__boton__github">Ver Mas</a>
+                <div class="stack__tecnologias">
+                    
+                    <div class="iconos">
+                        <img src="./Assets/Iconos Programacion/html-5.png" class="tecnologias__iconos" alt="icono tecnologia 1">
+                        <p class="icono__titulo">HTML</p>
                     </div>
-            </div>
-
-            <div class="proyecto">
-                <img src="./Assets/Portada-Proyectos.jpg" alt="Imagen de Proyecto" class="proyecto__portada">
-                <h3 class="proyecto__titulo">proyecto 2 </h3>
-                <p class="proyecto__descripcion">Este proyecto de programación busca resolver la necesidad de una gestión eficiente de tareas y contenidos en entornos educativos. Se desarrolló una aplicación web utilizando XAMPP como entorno local, con PHP, MySQL, HTML/CSS y JavaScript, permitiendo registrar usuarios, asignar tareas y generar reportes de rendimiento.
-
-Mi rol se centró en el desarrollo del backend, diseñando la base de datos y programando las funciones principales para el manejo de usuarios y tareas. Gracias a este proyecto, fortalecí mis habilidades técnicas en bases de datos y lógica de servidor.
-
-Además, el trabajo en equipo y la comunicación fueron clave en el proceso, lo que me permitió mejorar significativamente mis habilidades blandas, como la colaboración, la organización y la adaptación a distintos enfoques de trabajo.</p>
-                <h3 class="tecnologiasUsadas__titulo">Tecnologias Usadas</h3>
-                <div class="tecnologiasusadas__iconos">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" alt="Tecnologias Usadas" class="imagen__iconos">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                </div>
-                <div class="proyecto__enlaces">
-                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io">GitHub <img src="./Assets/Iconos Programacion/github-mark.png" alt="icono github" class="proyecto__enlaces__boton__github"></a>
-                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io"><img src="./Assets/Iconos General/redimensionar.png" alt="Icono Redimensionar" class="proyecto__enlaces__boton__github">Ver Mas</a>
+                    <div class="iconos">
+                        <img src="./Assets/Iconos Programacion/css3 (1).png" class="tecnologias__iconos" alt="icono tecnologia 2">
+                        <p class="icono__titulo">CSS</p>
                     </div>
-            </div>
-
-            <div class="proyecto">
-                <img src="./Assets/Portada-Proyectos.jpg" alt="Imagen de Proyecto" class="proyecto__portada">
-                <h3 class="proyecto__titulo">proyecto 3</h3>
-                <p class="proyecto__descripcion">Este proyecto de programación busca resolver la necesidad de una gestión eficiente de tareas y contenidos en entornos educativos. Se desarrolló una aplicación web utilizando XAMPP como entorno local, con PHP, MySQL, HTML/CSS y JavaScript, permitiendo registrar usuarios, asignar tareas y generar reportes de rendimiento.
-
-Mi rol se centró en el desarrollo del backend, diseñando la base de datos y programando las funciones principales para el manejo de usuarios y tareas. Gracias a este proyecto, fortalecí mis habilidades técnicas en bases de datos y lógica de servidor.
-
-Además, el trabajo en equipo y la comunicación fueron clave en el proceso, lo que me permitió mejorar significativamente mis habilidades blandas, como la colaboración, la organización y la adaptación a distintos enfoques de trabajo.</p>
-                <h3 class="tecnologiasUsadas__titulo">Tecnologias Usadas</h3>
-                <div class="tecnologiasusadas__iconos">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" alt="Tecnologias Usadas" class="imagen__iconos">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                    <img src="./Assets/Iconos Programacion/css3 (1).png" class="imagen__iconos" alt="Tecnologias Usadas">
-                </div>
-                <div class="proyecto__enlaces">
-                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io">GitHub <img src="./Assets/Iconos Programacion/github-mark.png" alt="icono github" class="proyecto__enlaces__boton__github"></a>
-                        <a class="proyecto___enlaces__boton" target="_blank" href="github.io"><img src="./Assets/Iconos General/redimensionar.png" alt="Icono Redimensionar" class="proyecto__enlaces__boton__github">Ver Mas</a>
+                    <div class="iconos">
+                        <img src="./Assets/Iconos Programacion/javascript.png" class="tecnologias__iconos" alt="icono tecnologia 3">
+                        <p class="icono__titulo">JavaScript</p>
+                    </div>
+                    <div class="iconos">
+                        <img src="./Assets/Iconos Programacion/mysql.png" class="tecnologias__iconos" alt="icono tecnologia 4">
+                        <p class="icono__titulo">Mysql</p>
+                    </div>
+                    <div class="iconos">
+                        <img src="./Assets/Iconos Programacion/git.png" class="tecnologias__iconos" alt="icono tecnologia 5">
+                        <p class="icono__titulo">Git</p>
                     </div>
                     
+                </div>
+
+        </section>
+
+    <div class="divider"> </div>
+
+        <section class="formacion">
+
+            <h2 class="formacion__titulo">Experiencia Profesional y Educacion</h2>
+
+            <div class="experiencia">
+                <h3 class="experiencia__titulo">Experiencia Profesional</h3>
+                <div class="experiencia__contenedor">
+                    <div class="vl"></div>
+                    <div class="experiencia__uno">
+                        <div class="titulo__experiencia">
+                            <img src="./Assets/maletin.png" alt="icono de maletin">
+                            <h2>Desarrollador de Software Jr.</h2>
+                        </div>
+                        <div class="empresa">Banco Digital MX</div>
+                        <div class="ubicacion">Remoto / Ciudad de México, México</div>
+                        <div class="periodo">Febrero 2024 – Octubre 2024</div>
+
+                        <div class="section-title">Responsabilidades principales</div>
+                        <ul>
+                        <li>Desarrollo de módulos con .NET y C#</li>
+                        <li>Integración de APIs RESTful y conexión con bases de datos SQL Server</li>
+                        <li>Colaboración en equipo ágil bajo metodología Scrum</li>
+                        <li>Mantenimiento de documentación en Confluence</li>
+                        <li>Pruebas automatizadas y unitarias</li>
+                        </ul>
+
+                        <div class="section-title">Logros y contribuciones</div>
+                        <ul>
+                        <li>Reducción del tiempo de respuesta de la API en un 35%</li>
+                        <li>Automatización de reportes con scripts en Python</li>
+                        <li>Apoyo en la migración de servicios a Azure</li>
+                        <li>Reconocimiento como empleado destacado Q2 2024</li>
+                        </ul>
+                    </div> 
+                </div>
+
+                <div class="experiencia__contenedor">
+                    <div class="vl"></div>
+                    <div class="experiencia__uno">
+                        <h2>Desarrollador de Software Jr.</h2>
+                        <div class="empresa">Banco Digital MX</div>
+                        <div class="ubicacion">Remoto / Ciudad de México, México</div>
+                        <div class="periodo">Febrero 2024 – Octubre 2024</div>
+
+                        <div class="section-title">Responsabilidades principales</div>
+                        <ul>
+                        <li>Desarrollo de módulos con .NET y C#</li>
+                        <li>Integración de APIs RESTful y conexión con bases de datos SQL Server</li>
+                        <li>Colaboración en equipo ágil bajo metodología Scrum</li>
+                        <li>Mantenimiento de documentación en Confluence</li>
+                        <li>Pruebas automatizadas y unitarias</li>
+                        </ul>
+
+                        <div class="section-title">Logros y contribuciones</div>
+                        <ul>
+                        <li>Reducción del tiempo de respuesta de la API en un 35%</li>
+                        <li>Automatización de reportes con scripts en Python</li>
+                        <li>Apoyo en la migración de servicios a Azure</li>
+                        <li>Reconocimiento como empleado destacado Q2 2024</li>
+                        </ul>
+                    </div>
+                </div>
+
+
             </div>
-            <a href="proyectos.html" class="todos__proyectos">Ver Todos Mis Proyetos</a>
 
-        </section>
+            <div class="educacion">
+                <h3 class="educacion__titulo">Educacion y Cursos</h3>
 
+                <div class="experiencia__contenedor">
+                    <div class="vl"></div>
+                    <div class="experiencia__uno">
+                        <div class="titulo__experiencia">
+                            <img src="./Assets/maletin.png" alt="icono de maletin">
+                            <h2>Desarrollador de Software Jr.</h2>
+                        </div>
+                        <div class="empresa">Banco Digital MX</div>
+                        <div class="ubicacion">Remoto / Ciudad de México, México</div>
+                        <div class="periodo">Febrero 2024 – Octubre 2024</div>
 
-        </section>
+                        <div class="section-title">Responsabilidades principales</div>
+                        <ul>
+                        <li>Desarrollo de módulos con .NET y C#</li>
+                        <li>Integración de APIs RESTful y conexión con bases de datos SQL Server</li>
+                        <li>Colaboración en equipo ágil bajo metodología Scrum</li>
+                        <li>Mantenimiento de documentación en Confluence</li>
+                        <li>Pruebas automatizadas y unitarias</li>
+                        </ul>
 
-        <div class="divider"> </div>
-
-        <section>
-
-            <h2>Experiencia y eduacion</h2>
-
-
-
-
-
-        </section>
-        
-
-        </main>
-
-
-        
-        <footer class="footer">
-            <p>Desarrollado por Omar Sosa</p>
+                        <div class="section-title">Logros y contribuciones</div>
+                        <ul>
+                        <li>Reducción del tiempo de respuesta de la API en un 35%</li>
+                        <li>Automatización de reportes con scripts en Python</li>
+                        <li>Apoyo en la migración de servicios a Azure</li>
+                        <li>Reconocimiento como empleado destacado Q2 2024</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
             
-        </footer>
+        
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__seccion1">
+
+            <p>¿Quien Soy? -> <strong>Conoceme</strong></p>
+            <p>¿Que he desarrollado? -> <strong>Mis Proyectos</strong></p>
+            <p>¿En que soy Experto? -> <strong>Mi Stack Tecnologico</strong></p>
+            <p>¿Cual es mi experiencia? -> <strong>Experiencia Laboral</strong></p>
+            <p>¿Donde Aprendi? -> <strong>Mi educacion y Certificaciones</strong></p>
+
+        </div>
+
+        <div class="footer__seccion2">
+
+            <p>./GoodBye</p>
+
+        </div>
+
+        <div class="footer__seccion3">
+
+            <p>Desarrollado por Omar Sosa</p>
+            <p>Portafolio listo para su modificacion</p>
+            <p>Personalizalo a tu gusto</p>
+            <p>sigue a panteras en sus redes sociales</p>
+
+        </div>
+        
+    </footer>
 
 
 </body>

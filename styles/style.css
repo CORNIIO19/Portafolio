@@ -26,8 +26,15 @@ body {
 
 }
 
+section{
+    /* margin-bottom: 4rem; */
+}
+
 .header{
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 2% 15%;
+    position: sticky;
+    top: 0;
+    background-color: #000000;
 }
 
 .header__menu{
@@ -39,8 +46,9 @@ body {
     font-size: 1.5rem;
     color: #22d4fd;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     text-decoration: none;
+    transition: color .7s;
 }
 
 .header__menu__link:hover { 
@@ -51,18 +59,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8% 15% 0% 15%;
+    padding: 3% 15% 10% 15%;
 
 }
 
 .presentacion {
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     /*margin: 10% 15%; crea un espacio al rededor del elementos, lo creo por fuera*/
     justify-content: space-between;
     /* crea un espacio alrededor del elemento, crea el espacio por adentro del elemento*/
     gap:82px;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
     
 }
 
@@ -74,7 +82,7 @@ body {
 }
 
 .presentacion__contenido__titulo{
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: "Krona One", sans-serif;
 }
 
@@ -84,9 +92,10 @@ body {
 }
 
 .presentacion__contenido__parrafo{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: "Montserrat", sans-serif;
     text-align: justify;
+    /* padding-bottom: 4%; */
 }
 
 .presentacion__contenido__parrafo__nombre{
@@ -103,13 +112,18 @@ body {
 .presentacion__enlaces {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 32px;
+    gap: 20px;
+    padding-top: 4%;
+}
+
+.prueba2{
+    display: flex;
+    flex-direction: column;
 }
 
 .presentacion__contacto{
-    padding-bottom: 10%;
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -119,14 +133,14 @@ body {
 
 .contacto__titulo{
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
     font-family: "Krona One", sans-serif;
-    padding-bottom: 10%;
+    /* padding-bottom: 10%; */
 
 }
 
 .contacto__correo{
-    font-size: 1.85rem;
+    font-size: 2rem;
     text-align: left;
     font-family: "Montserrat", sans-serif;
     color: #22D4FD;
@@ -138,17 +152,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20%;
 }
 
 .contacto__enlaces__link{
     width:60%;
     text-align: center;
-    padding: 21.5px 0;
+    padding: 40.5px 30px;
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    font-weight: 600px;
+    font-size: 1.7rem;
+    font-weight: 800;
     text-decoration: none;
     color:#F6F6F6;
     border: 2px solid #22d4fd;
@@ -156,6 +169,7 @@ body {
     justify-content: center;
     gap:40px;
     margin-bottom: 10%;
+    transition: 2s;
 }
 
 .contacto__enlaces__link:hover{
@@ -167,18 +181,18 @@ body {
 
 .imagen__enlaces{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: 50%;
-    height: 100%;
+    
 }
 
 
 .presentacion__enlaces__titulo{
     font-family: "Krona One", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.7rem;
 }
 
 .presentacion__enlaces__link{
@@ -194,18 +208,18 @@ body {
     border: 2px solid #22d4fd;
     display: flex;
     justify-content: center;
-    gap:16px
+    gap:16px; 
+    transition: 2s;
 }
 
 .presentacion__enlaces__link:hover{
     background-color: #272727;
-    border: 2px solid #0000FF;
+    border: 2px solid #0000ff;
     width: 120%;
 }
 
 .presentacion__imagen{
-    width: 90%;
-    padding-bottom: 7%;
+    width: 75%;
 }
 
 .divider {
@@ -213,9 +227,9 @@ body {
     border-top: 2px solid #22D4FD;
     border-radius: 5px;
     width: 100%;
-    margin: 0 auto;
-    padding-bottom: 3%;
-    padding-top: 3%;
+    margin: 10rem 0;
+    /* padding-bottom: 3%;
+    padding-top: 3%; */
 }
 
 .divider::after {
@@ -288,7 +302,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 
 
 }
@@ -298,7 +312,7 @@ body {
     font-family: "Montserrat", sans-serif;
     color: #22D4FD;
     font-size: 2rem;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
 
 }
 
@@ -314,13 +328,14 @@ body {
 }
 
 .proyecto{
-    width: 100%;
+    width: 40%;
+    height: fit-content;
     border: 2px solid #22d4fd;
     border-radius: 20px;
     background-color: #1A1A1A;
     color:#f6f6f6;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction:column ;
     box-shadow: 0 4px 8px 0 rgba(34, 212, 253, 0.5), 0 6px 20px 0 rgba(34, 212, 253, 0.8);
@@ -339,7 +354,7 @@ body {
 
 .proyecto__titulo{
     font-family: "Montserrat", sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     text-align: center;
     margin: 2% 5% 2% 5%;
     font-weight: 800;
@@ -348,7 +363,7 @@ body {
 
 .proyecto__descripcion{
     font-family: "Montserrat", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: justify;
     margin: 2% 5% 2% 5%;
@@ -358,7 +373,7 @@ body {
 .tecnologiasUsadas__titulo{
     font-family: "Montserrat", sans-serif;
     color: #22D4FD;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     margin: 2% 5% 2% 5%;
 }
 
@@ -373,8 +388,8 @@ body {
 }
 
 .imagen__iconos{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     padding-left: 10px;
     
 }
@@ -429,21 +444,176 @@ body {
     font-family: "Montserrat", sans-serif;
     color: #22D4FD;
     font-size: 1.8rem;
-    margin: 0% 5% 2% 5%;
+    margin: 0% 5% 0 5%;
     text-decoration: none;
 
 }
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacion__titulo{
+    font-family: "Montserrat", sans-serif;
+    color: #22D4FD;
+    font-size: 2rem;
+    padding-bottom: 5%;
+}
+
+.experiencia{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.experiencia__titulo{
+    font-family: "Montserrat", sans-serif;
+    color: #22D4FD;
+    font-size: 1.7rem;
+    padding-bottom: 2%;
+}
+
+.experiencia__contenedor{
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', sans-serif;
+
+}
+/* 
+.experiencia__uno{
+    display: flex;
+} */
+
+.vl {
+    border-left: 6px solid #22D4FD;
+    padding-right: 2%;
+    /* height: 500px; */
+}
+
+/* -------ESTILOS DE LOS ELEMENTOS DE LOS ELEMENTOS DE EDUCACION Y EXPERIENCIA--------------- */
+
+.titulo__experiencia{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo__experiencia img{
+    width: 5%;
+    padding-right: 2.5%;
+}
+
+.experience-card h2 {
+    margin: 0;
+    font-size: 1.6em;
+    color: #22d4fd;
+}
+
+.experience-card .empresa {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 4px;
+}
+
+.experience-card .ubicacion,
+.experience-card .periodo {
+    color: #bbbbbb;
+    font-size: 0.95em;
+}
+
+.section-title {
+    color: #22d4fd;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+.tecnologias {
+    background-color: #222;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.tecnologias span {
+    display: inline-block;
+    margin: 4px 8px 4px 0;
+    background-color: #333;
+    padding: 4px 8px;
+    border-radius: 6px;
+    color: #22d4fd;
+    font-size: 0.9em;
+}
+
+
+.educacion{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.educacion__titulo{
+    font-family: "Montserrat", sans-serif;
+    color: #22D4FD;
+    font-size: 1.7rem;
+    padding-bottom: 2%;
+}
+
+
+
 
 .footer{
     background-color: #22d4fd;
     padding: 24px;
     color:#000000;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    /* etiquetas de la distribucion de las secciones del footer */
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
 }
 
+.footer__seccion1{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    /* background-color: #000000; */
+}
+
+.footer__seccion1 p{
+    padding-bottom: 2%;
+}
+
+.footer__seccion2{
+    display: flex;
+    align-items: flex-end;
+    /* background-color:#1A1A1A; */
+}
+
+.footer__seccion3{
+    text-align: right;
+}
 
 
 @media (max-width: 1200px) {
