@@ -775,6 +775,10 @@ ul li {
         width: 90%;
     }
 
+    .presentacion__imagen{
+        justify-content: center;
+    }
+
     .presentacion__enlaces{
         display: flex;
         flex-direction: column;
